@@ -1,0 +1,205 @@
+<!DOCTYPE html> 
+<!--Etiqueta que le permite al navegador entender que archivo 
+va a interpretar-->
+<html lang="es-cl">
+<head> <!--Head etiqueta para definir los metadatos de la página -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Primer Sitio DWY4101-002V">
+    <meta name="author" content="Esteban Dido">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, etiquetas semanticas">
+    <link rel="icon" href="images/books_512x512.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mi Primera Web</title>
+    <style>
+        a:link
+        {
+            color: black;
+        }
+        a:visited
+        {
+            color: black;
+        }
+        a:hover
+        {
+            color: black;
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body> <!--Escribir toda la estructura de la página-->
+    <header>
+        <h1>ENCABEZADO PÁGINA</h1>
+    </header>
+    <nav>
+        <a href="intro.html">INICIO</a> | 
+        <a href="tablas.html">TABLAS</a> | 
+        <a href="layout.html">LAYOUT</a> | 
+        <a href="contacto.html">CONTACTO</a> |
+        <a href="http://www.google.cl">Google</a>
+    </nav>
+    <section>
+        <h2>Manejo de Encabezados</h2>
+        <article>
+            <h1 id="INICIO">Encabezado Nivel 1</h1>
+            <h2>Encabezado Nivel 2</h2>
+            <h3 style="color: green; ">Encabezado Nivel 3</h3>
+            <h4>Encabezado Nivel 4</h4>
+            <h5>Encabezado Nivel 5</h5>
+            <h6>Encabezado Nivel 6</h6>
+        </article>
+        <h2>Manejo de Párrafos</h2>
+        <article>
+            <h3>Cualquier texto</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore non, sit alias nemo vel dignissimos? Cupiditate, vitae optio amet rem neque ut impedit suscipit nisi beatae debitis aut quis eaque, veniam expedita cumque quia ad assumenda. <span style="color:red;">Veniam porro labore id natus accusamus tempora quisquam dolore perferendis velit ex vero vitae tenetur commodi iste nesciunt odio facilis, iusto ipsam, cumque recusandae eveniet eaque modi sint</span>. Sequi sit deleniti, perferendis ex libero tempore a maiores cumque voluptate <b>reprehenderit</b> aliquid magni et! Fuga expedita excepturi minus et cupiditate aperiam, vel voluptate rem modi! Est sapiente <i>reprehenderit deserunt</i> labore hic itaque nemo ducimus doloremque.</p>
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet, <ins>consectetur adipisicing</ins> elit. Blanditiis perferendis ut reiciendis sint facere, atque incidunt saepe aut ipsam suscipit! Velit molestias possimus illo, enim illum adipisci quos sequi, sunt eligendi voluptatum eveniet, non dolores pariatur quod quisquam dicta quas ipsa? Porro temporibus earum perspiciatis tempore eius consequatur! Deserunt, mollitia! Repellat accusamus nobis, a dolorem officia possimus mollitia earum modi sed corrupti. Tempora nisi placeat, libero corporis aperiam numquam vel!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo odit officia atque fugit. <del>Nisi obcaecati sit architecto! Consequuntur reprehenderit cumque architecto nostrum pariatur perferendis magni ipsum ex, porro, illum maiores incidunt dignissimos voluptatum! Rerum delectus</del>, ut quaerat voluptates culpa natus eveniet possimus voluptatem asperiores perferendis quas deserunt quo esse. Veniam, placeat hic numquam quasi atque quisquam quaerat nam laudantium fugiat, distinctio vel rem maxime recusandae molestiae in. <q><i><b>Neque aut autem hic minima fugit ipsam praesentium est voluptatum vitae ad ipsum, quisquam vel labore!</b></i></q> Amet eius vel repellat ea id deserunt reprehenderit nobis placeat eveniet? Laudantium vel ex, repellendus ut eos voluptas ipsam harum sint facilis consequatur, unde temporibus fugit odio perferendis in tempore, molestiae non earum. Non obcaecati vero alias quia facere, labore rem qui fugiat laboriosam reiciendis eius temporibus odio minus rerum suscipit nemo veniam molestias totam nulla sunt, magnam quo, ratione doloribus? Sint corrupti aliquid quam odio accusamus.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, perferendis!</p>
+        </article>
+    </section>
+    <section>
+        <h2>Manejo de Links</h2>
+        <article>
+            <!--Vínculo a otra sitio-->
+            <a href="http://www.google.cl" title="Google" target="_blank">Ir a Google</a>
+            <br>
+            <!--Vínculo local-->
+            <a href="tablas.html" title="Manejo de tablas" target="_self">Manejo de Tablas</a>
+            <br>
+            <!--Vínculo a correos-->
+            <a href="mailto:correo@correo.com">Contáctanos</a>
+            <br>
+            <!--Usar imagen como link-->
+            <a href="http://espndeportes.com" target="_blank">
+                <img src="images/books_512x512.png" alt="ir a ESPN" style="width: 50px; height: 50px;">
+            </a>
+            <br>
+            <!--Uso de marcadores-->
+            <a href="#OL">Ir a Listas Ordenadas</a>
+            <br>
+            <a href="#UL">Ir a Listas No Ordenadas</a>
+            <br>
+            <a href="#DL">Ir a Listas Descriptivas</a>
+        </article>
+        <h2>Manejo de Imágenes</h2>
+        <article>
+            <img src="images/montain_1000x500.jpg"  title="Nieve sobre un valle" alt="Valle y Montañas nevadas" width="600px" height="300px">
+            <img src="http://picsum.photos/1000/500" alt="Imagen aleatoria" title="Random Image" width="600px" height="300px">
+            <br>
+            <img src="images/city_500x500.jpg" alt="Ciudad" style="width: 250px; height: 250px;" >
+            <br>
+            <img src="images/piso_madera_300x300.jpg" alt="Piso de madera">
+        </article>
+    </section>
+    <section>
+        <h2>Manejo de Listas</h2>
+        <article>
+            <h4 id="OL">Listas Ordenadas</h4>
+            <ol type="1"> <!--Ordered List type = 1(defecto), A, a, I , i -->
+                <li>Chile</li>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Perú</li>
+            </ol>
+            <ol type="A">
+                <li>Chile</li>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Perú</li>
+            </ol>
+            <ol type="I">
+                <li>Chile</li>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Perú</li>
+            </ol>
+            <h4 id="UL">Listas No Ordenadas</h4>
+            <ul style="list-style-type: disc;"> <!--Unordered List style-->
+                <li>Chile</li>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Perú</li>
+            </ul>
+            <ul style="list-style-type: circle;">
+                <li>Chile</li>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Perú</li>
+            </ul>
+            <ul style="list-style-type: square;">
+                <li>Chile</li>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Perú</li>
+            </ul>
+            <ul style="list-style-type: none;">
+                <li>Chile</li>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Perú</li>
+            </ul>
+            <h4 id="DL">Listas Descriptivas</h4>
+            <dl> <!--Listas Descriptivas-->
+                <dt>Chile</dt>
+                <dd><p>Una larga franja de tierra que va de norte a sur.</p></dd>
+                <dt>Brasil</dt>
+                <dd><p>Los del jogo bonito</p></dd>
+                <dt>Argentina</dt>
+                <dd><p>El país del rock sudamericano</p></dd>
+            </dl>
+        </article>
+        <article>
+            <table align="center" >
+                <tr>
+                    <th>RUT</th>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>EMAIL</th>
+                    <th>ESTADO</th>
+                </tr>
+                <tr>
+                    <td>123456-k</td>
+                    <td>Aquiles</td>
+                    <td>Baeza</td>
+                    <td>aquiles.baeza@gmail.com</td>
+                    <td>&#128516;</td>
+                </tr>
+                <tr>
+                    <td>134578-9</td>
+                    <td>Cindy</td>
+                    <td>Nero</td>
+                    <td>cindynero@duoc.cl</td>
+                    <td>&#128532;</td>
+                </tr>
+                <tr>
+                    <td>141648-6</td>
+                    <td>Esteban</td>
+                    <td>Dido</td>
+                    <td>perdido@espacio.cl</td>
+                    <td>&#128540;</td>
+                </tr>
+            </table>
+        </article>
+        <a href="#INICIO">Volver al inicio</a>
+    </section>
+    
+
+    <footer>
+        <p>Armando Mochas</p>
+        <address>
+            Diseñado por Esteban Dido <br>
+            Para DWY4101-002 <br>
+            Visítanos en: <br>
+            Nuestra casa en el lejano bosque 777, <br>
+            Santiago <br>
+            Chile
+            <br>
+            <a href="contacto.html">Contáctanos...</a>
+        </address>
+    </footer>
+
+
+</body>
+</html>

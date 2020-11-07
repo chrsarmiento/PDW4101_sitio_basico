@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Primer Sitio DWY4101-002V">
+    <meta name="author" content="Esteban Dido">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, etiquetas semanticas">
+    <link rel="icon" href="images/books_512x512.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Manejo de Tablas</title>
+    <style>
+        #tList td
+        {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ENCABEZADO PÁGINA</h1>
+    </header>
+    <nav>
+        <a href="intro.html">INICIO</a> | 
+        <a href="tablas.html">TABLAS</a> | 
+        <a href="layout.html">LAYOUT</a> | 
+        <a href="contacto.html">CONTACTO</a> |
+        <a href="http://www.google.cl">Google</a>
+    </nav>
+    <section>
+        <h2>Manejo de Tablas</h2>
+        <article>
+            <table align="center" >
+                <tr>
+                    <th>RUT</th>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>EMAIL</th>
+                    <th>ESTADO</th>
+                </tr>
+                <tr>
+                    <td>123456-k</td>
+                    <td>Aquiles</td>
+                    <td>Baeza</td>
+                    <td>aquiles.baeza@gmail.com</td>
+                    <td>&#128516;</td>
+                </tr>
+                <tr>
+                    <td>134578-9</td>
+                    <td>Cindy</td>
+                    <td>Nero</td>
+                    <td>cindynero@duoc.cl</td>
+                    <td>&#128532;</td>
+                </tr>
+                <tr>
+                    <td>141648-6</td>
+                    <td>Esteban</td>
+                    <td>Dido</td>
+                    <td>perdido@espacio.cl</td>
+                    <td>&#128540;</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <section>
+        <article>
+            <table id="tList" align="center" style="width: 100%;">
+                <tr>
+                    <th>Ordered List</th>
+                    <th>Unordered List</th>
+                    <th>Description List</th>
+                </tr>
+                <tr>
+                    <td >
+                        <ol type="1">
+                            <li>Chile</li>
+                            <li>Argentina</li>
+                            <li>Brasil</li>
+                            <li>Perú</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style-type: disc;">
+                            <li>Chile</li>
+                            <li>Argentina</li>
+                            <li>Brasil</li>
+                            <li>Perú</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <dl> <!--Listas Descriptivas-->
+                            <dt>Chile</dt>
+                            <dd><p>Una larga franja de tierra que va de norte a sur.</p></dd>
+                            <dt>Brasil</dt>
+                            <dd><p>Los del jogo bonito</p></dd>
+                            <dt>Argentina</dt>
+                            <dd><p>El país del rock sudamericano</p></dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </table>
+        </article>
+    </section>
+    <footer>
+        <p>Armando Mochas</p>
+        <address>
+            Diseñado por Esteban Dido <br>
+            Para DWY4101-002 <br>
+            Visítanos en: <br>
+            Nuestra casa en el lejano bosque 777, <br>
+            Santiago <br>
+            Chile
+            <br>
+            <a href="contacto.html">Contáctanos...</a>
+        </address>
+    </footer>
+</body>
+</html>

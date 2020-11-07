@@ -1,0 +1,86 @@
+/*
+Comentarios
+*/
+body
+{
+    font-family: tahoma;
+}
+header
+{
+    background-color: #000000;
+    font-size: 35px;
+    font-family: impact;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+nav
+{
+    background-color: #14213d;
+    font-size: x-large;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+section
+{
+    background-color: #e5e5e5;
+    padding:15px;
+}        
+article
+{
+    background-color: #ffffff;
+    padding: 20px;
+}
+footer
+{
+    background-color:#fca311;
+    color: white;
+    padding: 20px;
+}
+a:link
+{
+    color: whitesmoke;
+    text-decoration:none;
+}
+a:visited
+{
+    color: whitesmoke;
+    text-decoration:none;
+}
+a:hover
+{
+    color: whitesmoke;
+    text-decoration:underline;
+}
+h2
+{
+    color:red;
+    font-family: verdana;
+}
+h3
+{
+    color:red;
+    font-family: verdana;
+}
+p
+{
+    color:blue;
+    font-size: large;
+}
+table
+{
+    width: 80%;
+    border-collapse: collapse;
+}
+th
+{
+    background-color: gray;
+}
+th,td
+{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
